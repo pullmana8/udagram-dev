@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register src/**/*.test.ts"
+    "test": "mocha -r ts-node/register src/**/*.test.ts",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
+    "tsc": "tsc"
   },
   "author": "Antonette Caldwell",
   "license": "ISC",

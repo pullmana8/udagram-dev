@@ -1,3 +1,6 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 export const config = {
   "dev": {
     "username": process.env.POSTGRES_USERNAME,

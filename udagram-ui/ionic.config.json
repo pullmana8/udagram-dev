@@ -1,7 +1,0 @@
-{
-  "name": "udagram-ui",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
